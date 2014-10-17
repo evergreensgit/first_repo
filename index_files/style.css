@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+/* Basic */
+
+* {
+	font-family: 'latoregular', Arial, sans-serif;
+	font-size:13px;
+}
+
+@media (min-width: 1200px) {
+ .container {
+  width: 1030px;
+ }
+}
+
+p {
+	font-size:13px;
+}
+
+a {
+	color:#1c75bc;
+}
+
+a:hover {
+	color:#1c75bc;
+}
+
+body {
+	margin:0;
+	padding:0;	
+}
+
+.clear {
+	clear:both;
+}
+
+/* Fonts!!! */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext);
+
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.eot');
+    src: url('../fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont.woff') format('woff'),
+         url('../fonts/lato-regular-webfont.ttf') format('truetype'),
+         url('../fonts/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato-bold-webfont.eot');
+    src: url('../fonts/lato-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bold-webfont.woff') format('woff'),
+         url('../fonts/lato-bold-webfont.ttf') format('truetype'),
+         url('../fonts/lato-bold-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2 {
+	font-size: 40px;
+	color: #404041;
+	text-align:center;
+	margin: 0 0 20px 0;
+	font-weight: 700;
+}
+
+.white {
+	color: #fff;	
+}
+.dark {
+	color: #000;
+}
+
+/* Blocks */
+
+
+/* Form */
+
+
+*:active,
+*:hover,
+*:link,
+*:focus,
+*:focus:hover ,
+*:active:hover,
+*:link:hover{
+	outline:none;
+}
+
+/*________ Слайдер ________*/
+#slides {
+	display:none;
+}
+#slides .slidesjs-navigation {
+margin-top:5px;
+}
+.slidesjs-pagination {
+margin: 7px 0 0;
+float: right;
+list-style: none;
+}
+
+.slidesjs-pagination li {
+float: left;
+margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+display: block;
+width: 13px;
+height: 0;
+padding-top: 13px;
+background-image: url(../img/pagination.png);
+background-position: 0 0;
+float: left;
+overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+color: #9e2020
+}
+.navbar {
+overflow: hidden
+}
+
+
+/*________ Каталог ________*/
+#catalog {
+	background-color: blue;
+}
+
+/*________ Новости/Статьи ________*/
+.sidebar-right {
+	background: gray;
+}
+
+/*________ футер ________*/
+.tab_drawer_heading {
+display: none;
+}
+.nav-tabs {
+margin: 0;
+padding: 0;
+height: auto;
+border: 0;
+}
+ul.tabs li.active {
+display: block;
+}
+.nav-tabs li {
+border: 0;
+padding: 0 !important;
+margin: 0 2px 0 0;
+height: 42px;
+}
+ul.tabs li.active {
+display: block;
+}
+.nav-tabs li {
+border: 0;
+padding: 0 !important;
+margin: 0 2px 0 0;
+height: 42px;
+}
+ul.tabs li {
+float: left;
+margin: 0;
+cursor: pointer;
+overflow: hidden;
+position: relative;
+}
+.nav-tabs li.active a {
+opacity: 1;
+}
+.tab_container {
+clear: both;
+float: left;
+width: 100%;
+}
+@media screen and (max-width: 767px) {
+	.tabs {
+		display: none;
+	}
+	.tab_drawer_heading {
+		margin: 0;
+		padding: 5px 20px;
+		display: block;
+		cursor: pointer;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+}

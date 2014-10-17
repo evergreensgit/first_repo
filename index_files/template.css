@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* Basic CSS for landings */
+
+
+
+*{
+	margin:0;
+	padding:0;
+	font-family:'PT Sans', Geneva, sans-serif;	
+}
+
+img,a img{
+	border:none;
+}
+
+
+.clear{
+	clear:both;	
+}
+
+.left{float:left}
+.right{float:right}
+
+.mb20px{
+	margin-bottom:20px;	
+}
+.align-left{
+text-align:left;	
+}
+
+
+.align-right{
+text-align:right;	
+}
+
+.h100px{
+width:100px;	
+}
+
+.h200px{
+width:200px;	
+}
+.h400px{
+width:400px;	
+}
+
+.h350px{
+width:350px;	
+}
+
+
+.h880px{
+	width:880px;	
+}
+
+.h940px{
+	width:940px;	
+}
+
+.h1000px{
+	width:1000px;	
+}
+
+.v10px{
+	height:10px;
+}
+
+.v20px{
+	height:20px;
+}
+.v30px{
+	height:30px;
+}
+.v50px{
+	height:50px;
+}
+
+.align_left{
+text-align:left;
+}
+
+.h100pc{
+width:100%;
+}
+
+/*PAGE*/
+
+.page{
+	width:1000px;
+	margin:0 auto;	
+	
+}
+
+
+/*PAGE VERTICAL BLOCKS*/
+
+/*block with bg*/
+.block-bg{
+	background:#EDEDEE;
+}
+
+/*vertical colored div*/
+.vert-colored-spacer{
+	background:#EDEDEE;
+	clear:both;
+	height:20px;
+}
+
+.spacer-light{
+	background:#f2f2f2;	
+}
+
+
+.spacer-dark-green{
+	background:#1c460b;	
+}
+
+
+
+.spacer-dark{
+	background: #AFB3BA;	
+}
+
+/*casual block*/
+.vert-block{
+padding: 55px 30px 40px 30px;
+margin: 0 auto;
+}
+
+.vert-block.h880px{
+	width:880px;	
+}
+.vert-block-container{
+	clear:both;
+}
+
+/*PAGE HORISONTAL BLOCKS*/
+
+.hor-block{
+	float:left;	
+}
+
+.hor-block-2{
+	float:left;
+	width:50%;
+}
+
+/*offsets */
+.left-offset{
+	padding-left:35px;
+}
+.right-offset{
+	padding-right:35px;
+}
+
+/*TYPOGRAPHY*/
+
+h1{
+	color:#000;
+	font-size:35px;
+	font-weight:normal;
+	margin:5px 0px;
+}
+
+h2{
+	color:#666766;
+	font-size:31px;
+	font-weight:bold;
+margin: 0px 0px 7px 7px;
+}
+
+h2.black{
+	color:#000;
+}
+
+h2.center-header{
+	font-size:32px;
+	color:#000;
+	text-shadow:0px 0px 3px #fff;
+	text-align:center;
+}
+
+p{
+	color:#000;
+	font-size:16px;
+}
+
+/*ADVANTAGES/SCHEMES TABLES*/
+
+/*horisontal table*/
+.scheme-table{
+	border:none;
+	border-collapse:collapse;
+	margin:0 auto;
+}
+
+.scheme-table td{
+	text-align:center;
+	vertical-align:middle;
+	padding:10px;
+	color:#000;
+	font-size:16px;
+}
+
+.scheme-table td.scheme-title{
+color: #F1F1F2;
+font-size: 16px;
+font-weight: bold;
+padding: 5px 5px;
+}
+.scheme-table td.td2{
+	width:48%;
+	text-align:left;
+}
+.scheme-table td.td3{
+	width:31%;
+}
+.scheme-table td.td4{
+	width:24%;
+}
+.scheme-table td.td5{
+	width:19%;	
+}
+
+.scheme-table td.td6{
+	width:16%;
+}
+
+.scheme-table td.scheme-icon{
+	padding:0px 5px;
+}
+
+
+/*vertical table*/
+
+.v-scheme-table-container{
+	text-align:center;	
+}
+
+
+.v-scheme-table{
+	border:none;
+	border-collapse:collapse;
+	width:680px;
+	margin:0 auto;
+	
+}
+
+.v-scheme-table td{
+	text-align:left;
+	vertical-align:middle;
+	padding:10px;
+	color:#000;
+	font-size:16px;
+}
+
+
+.v-scheme-table td.scheme-title{
+	color:#000;
+	font-size:16px;
+	padding:5px 5px;
+	text-align:left;
+}
+
+.v-scheme-table td.scheme-icon{
+	padding:20px 5px;
+	text-align:center
+}
+
+
+/*Colorbox*/
+
+#cboxLoadedContent h4 {
+font-size: 14px;
+color: #6E5B47;
+margin: 30px;
+}
